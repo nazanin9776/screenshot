@@ -35,7 +35,7 @@ try:
     username_input = driver.find_element(By.NAME,"user")
     password_input = driver.find_element(By.NAME,"password")
     username_input.send_keys("nazanin.shahmiri")
-    password_input.send_keys("N@zy97760$h")
+    password_input.send_keys("")
     login_button = driver.find_element(By.CLASS_NAME, "css-w9m50q-button")
     login_button.click()
         
